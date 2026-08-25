@@ -17,7 +17,7 @@ export const BRAND_CONFIG = {
 };
 
 export const CHECKOUT_CONFIG = {
-  checkoutUrl: 'https://pay.kiwify.com.br/placeholder', // Substitua pela URL de checkout real
+  checkoutUrl: 'https://pay.kiwify.com.br/BJpZUDR',
   paymentMethodsText: 'Pagamento 100% Seguro • PIX ou Cartão • Acesso Imediato',
 };
 

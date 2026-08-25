@@ -154,7 +154,11 @@ export default function App() {
 
   const handleCheckoutRedirect = () => {
     if (CHECKOUT_CONFIG.checkoutUrl && CHECKOUT_CONFIG.checkoutUrl !== '') {
-      window.open(CHECKOUT_CONFIG.checkoutUrl, '_blank');
+      try {
+        window.location.href = CHECKOUT_CONFIG.checkoutUrl;
+      } catch {
+        window.open(CHECKOUT_CONFIG.checkoutUrl, '_blank');
+      }
     }
   };
 
