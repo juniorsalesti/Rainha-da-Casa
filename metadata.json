@@ -1,0 +1,6 @@
+{
+  "name": "Rainha da Casa - Método de Organização Doméstica",
+  "description": "Funil interativo com diagnóstico personalizado e oferta do Método Rainha da Casa para organização e rotina doméstica leve.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
